@@ -32,6 +32,9 @@ type Move struct {
 	Focus            onvif.FocusMove      `xml:"timg:Focus"`
 }
 
+type MoveResponse struct {
+}
+
 type GetMoveOptions struct {
 	XMLName          string               `xml:"timg:GetMoveOptions"`
 	VideoSourceToken onvif.ReferenceToken `xml:"timg:VideoSourceToken"`
